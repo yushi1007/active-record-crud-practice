@@ -10,11 +10,15 @@ ActiveRecord CRUD
 
 ### Outline
 Welcome to the ActiveRecord obstacle run! Before you begin:
-2. run `bundle`
-3. run `rake db:migrate`
-4. run `rake -T`
+1. run `bundle`
+2. run `rake db:migrate`
+3. check the `schema.rb` to see what you have there -- are there any new datatypes?
+4. open `db/seeds.rb` and read it through
+5. run `rake db:seeds`
+6. open `rake console` and see what plants have been created (check how the date was handled)
+7. run `rake -T` and read the tasks marked as "🎁" and their descriptions
 
-After the last command, you will notice a `remind_me_about:` rake task. This is a carefully created process reminder for the key deliverables for this lecture. Even if you feel confident with AR, please check the instructions every time. 
+After the last command, you will notice a `remind_me_about:` rake tasks (the ones marked with the 🎁). This is a carefully created set of process reminders for the key deliverables for this review and onwards. Even if you feel confident with AR, please check the instructions every time. 
 
 You will be working in groups. Good news is that **if your database setup looks the same**, you can just send `schema.rb` and `development.sqlite` files after each person drives to hand over the database to the next person.
 
