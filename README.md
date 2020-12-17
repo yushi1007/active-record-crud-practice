@@ -10,7 +10,6 @@ ActiveRecord CRUD
 
 ### Outline
 Welcome to the ActiveRecord obstacle run! Before you begin:
-1. `cd` to `starter_kit`
 2. run `bundle`
 3. run `rake db:migrate`
 4. run `rake -T`
