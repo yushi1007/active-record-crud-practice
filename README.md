@@ -14,7 +14,7 @@ Welcome to the ActiveRecord obstacle run! Before you begin:
 2. run `rake db:migrate`
 3. check the `schema.rb` to see what you have there -- are there any new datatypes?
 4. open `db/seeds.rb` and read it through
-5. run `rake db:seeds`
+5. run `rake db:seed`
 6. open `rake console` and see what plants have been created (check how the date was handled)
 7. run `rake -T` and read the tasks marked as "🎁" and their descriptions
 
