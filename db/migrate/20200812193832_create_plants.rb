@@ -3,7 +3,7 @@ class CreatePlants < ActiveRecord::Migration[5.2]
     self.create_table(:plants) do |table_helper|
       table_helper.string :name
       table_helper.date :bought
-      table_helper.timestamp :created_on
+      table_helper.timestamps
     end
   end
 end
