@@ -47,7 +47,7 @@ $adding_table = [
 
 $adding_column = [
     {
-        name: "create a migration file (e.g. add_color_to_plant) -- refer to the", 
+        name: "create a migration file (e.g. add_color_to_plant) -- refer to the example below", 
         code: "rake db:create_migration NAME=add_column_name_to_name_of_the_table"
     },
     {
