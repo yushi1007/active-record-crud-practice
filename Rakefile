@@ -116,6 +116,6 @@ end
 
 # def task_body(args_hash)
 # reminder_title(args_hash[:title_emoji], args_hash[:title])
-# iterate_over_steps(args_hash[:global_var], args_hash[:steps_emoji])
+#   iterate_over_steps(args_hash[:global_var], args_hash[:steps_emoji])
 # end
 
