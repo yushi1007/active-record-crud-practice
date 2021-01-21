@@ -55,7 +55,7 @@ $adding_column = [
         code: ""
     },
     {
-        name: "open the migration file and using the add_column method, add columns", 
+        name: "open the migration file and using the add_column method, add columns (it takes three arguments)", 
         code: "add_column :name_of_the_table, :name_of_the_column, :datatype"
     },
     {
@@ -78,6 +78,10 @@ $rolling_back = [
         code: "rake db:migrate:status"
     },
     {
+        name: "ask yourself if you need to roll back (and lose the data connected to that migration) or maybe amend a table. If it's a rollback, proceed.", 
+        code: "rake db:migrate:status"
+    },
+    {
         name: "decide how many migrations you need to rollback and rollback", 
         code: "rake db:rollback STEP=number_of_migrations"
     },
@@ -90,7 +94,7 @@ $rolling_back = [
         code: ""
     },
     {
-        name: "delete the migration file", 
+        name: "delete (or change) the migration file", 
         code: ""
     },
     {
@@ -168,8 +172,8 @@ $updating_instance = [
         code: "variable.update(attribute: value, another_attribute: value)"
     },
     {
-        name: "make sure you updated it by reading the SQL logger and by calling the variable", 
-        code: "variable"
+        name: "look for the instance in the database again and make sure you updated it by reading the SQL logger and by calling the variable", 
+        code: "Noun.find_by(attribute: value)"
     },
     {
         name: "close the rake console", 
@@ -206,7 +210,7 @@ $updating_instances = [
         code: "rake console"
     },
     {
-        name: "update all instances by passing an argument of a hash", 
+        name: "update all instances by applying the update method on the whole class and passing an argument of a hash", 
         code: "Noun.update(attribute: value, another_attribute: value)"
     },
     {
